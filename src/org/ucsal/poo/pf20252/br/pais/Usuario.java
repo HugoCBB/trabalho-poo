@@ -4,6 +4,9 @@ public class Usuario {
     private String nome, tipo;
     private int matricula;
 
+    public double calcularMulta() {
+        return 0.0;
+    }
     public int getMatricula() {
         return matricula;
     }

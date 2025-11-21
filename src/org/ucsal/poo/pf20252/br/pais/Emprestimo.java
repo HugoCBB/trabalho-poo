@@ -7,7 +7,6 @@ public class Emprestimo {
     public int getDataDevolucao() {
         return dataDevolucao;
     }
-
     public int getDataEmprestimo() {
         return dataEmprestimo;
     }
