@@ -18,5 +18,11 @@ public class Emprestimo {
         this.dataDevolucao = dataDevolucao;
     }
 
-    
+    public void setDataEmprestimo(int dataEmprestimo) {
+        this.dataEmprestimo = dataEmprestimo;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
 }

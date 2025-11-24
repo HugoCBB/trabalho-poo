@@ -1,10 +1,17 @@
 package src.org.ucsal.poo.pf20252.br.pais;
 
-public class Usuario {
+public abstract class Usuario {
     private String nome, tipo;
     private int matricula;
+    private static int contadorMatricula = 0;
 
-    public double calcularMulta() {
+    public Usuario(String nome, String tipo) {
+        this.nome = nome;
+        this.tipo = tipo;
+        this.matricula = contadorMatricula++;
+    }
+
+    public double calcularMulta(double valor) {
         return 0.0;
     }
     public int getMatricula() {
